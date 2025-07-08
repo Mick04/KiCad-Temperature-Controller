@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ESP32-Custom-Symbols")(type "KiCad")(uri "/Users/michaelcave/folder_for_repositories_copy/KiCad-Temperature-Controller/Custom-Libraries/ESP32-Custom-Symbols.kicad_sym")(options "")(descr ""))
+)
