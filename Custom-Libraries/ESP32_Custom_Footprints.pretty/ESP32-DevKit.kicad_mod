@@ -318,4 +318,15 @@
 		(uuid "818006e8-2109-435d-aa61-159d3e700107")
 	)
 	(embedded_fonts no)
+	(model "/Users/michaelcave/folder_for_repositories_copy/KiCad-Temperature-Controller/Custom-Libraries/3D-Models/ESP32-DevKitC-3D-model/3D/ESP32-DevKitC.stp"
+		(offset
+			(xyz 14 -23 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

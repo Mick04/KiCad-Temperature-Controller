@@ -39,7 +39,7 @@
 		(tenting front back)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
-			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_020000ae)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
@@ -72,9 +72,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Gerber-Files/")
 		)
 	)
 	(net 0 "")
@@ -372,7 +372,7 @@
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm diameter 3.0mm width 1.6mm Capacitor")
 		(property "Reference" "C3"
-			(at 1.25 -2.05 0)
+			(at -2.58 0 0)
 			(layer "F.SilkS")
 			(uuid "cc9f6cb7-2003-4cf3-afcc-b6cb9f83469d")
 			(effects
@@ -2242,7 +2242,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "c345c948-1739-42bf-b7a1-8378a3f36d56")
+			(uuid "0532aaa3-a3a2-4de3-b0f4-9c156c0fa7b0")
 			(effects
 				(font
 					(size 1 1)
@@ -2255,7 +2255,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f839104e-c8e3-4e11-86e4-a725fb86698f")
+			(uuid "e27398c7-1dd4-4914-9ee7-28afc7830019")
 			(effects
 				(font
 					(size 1 1)
@@ -2268,7 +2268,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f1549c3a-c1ce-47a2-933c-18ea8c5e41d8")
+			(uuid "96943d51-2ada-4288-9b6c-a0627bc5c4c1")
 			(effects
 				(font
 					(size 1 1)
@@ -2281,7 +2281,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "008c1d97-9a14-4be0-90f1-0b21c4a39cbb")
+			(uuid "69e38dac-89c5-49ab-b181-c74ebf7871a0")
 			(effects
 				(font
 					(size 1 1)
@@ -2302,7 +2302,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "d920fd9a-de7c-47e7-a1ab-cfef45def7f5")
+			(uuid "fb762f79-9410-4d4d-ba0b-4089a60fa540")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 14.25 29.5 0)
@@ -2647,6 +2647,17 @@
 			(uuid "0f42d75c-fa6e-41c3-9eb0-3bf2a873020a")
 		)
 		(embedded_fonts no)
+		(model "/Users/michaelcave/folder_for_repositories_copy/KiCad-Temperature-Controller/Custom-Libraries/3D-Models/ESP32-DevKitC-3D-model/3D/ESP32-DevKitC-V1.stp"
+			(offset
+				(xyz 14 -22 3)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "ESP32_Custom_Footprints:MountingHole_3.2mm_M3_ISO7380"
 		(layer "F.Cu")
@@ -3684,7 +3695,7 @@
 		(descr "C, Disc series, Radial, pin pitch=2.50mm, diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 2.50mm diameter 3.0mm width 1.6mm Capacitor")
 		(property "Reference" "C5"
-			(at 1.25 1.905 0)
+			(at 5.04 0.8 0)
 			(layer "F.SilkS")
 			(uuid "87e3d197-6e81-4592-9e9d-521318cff3b2")
 			(effects
@@ -4223,7 +4234,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 3.81 2.37 0)
+			(at -4.318 -0.508 0)
 			(layer "F.Fab")
 			(uuid "6c3fb046-3dbb-49b6-950c-755ae976a23a")
 			(effects
@@ -4770,7 +4781,7 @@
 			)
 		)
 		(property "Value" "SCT-013-020 Current Sensor Terminal"
-			(at 5.08 -7 0)
+			(at -0.508 5.08 0)
 			(layer "F.Fab")
 			(uuid "4e06a5be-0904-4913-ab11-480a445d7261")
 			(effects
@@ -4999,6 +5010,17 @@
 		(model "${KICAD9_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_bornier-3_P5.08mm.step"
 			(offset
 				(xyz 5.079999924 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/michaelcave/folder_for_repositories_copy/KiCad-Temperature-Controller/Custom-Libraries/3D-Models/ESP32-DevKitC-3D-model/3D/ESP32-DevKitC.stp"
+			(offset
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
